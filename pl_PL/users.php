@@ -7,7 +7,7 @@ return array(
 	'create_user' => 'Utwórz nowego użytkownika',
 	'add_user' => 'Dodaj nowego użytkownika',
 	'editing_user' => 'Edytowanie profilu %s',
-	'remembered' => 'Znam swoja hasło!',
+	'remembered' => 'Znam swoje hasło!',
 	'forgotten_password' => 'Zapomniałeś hasła?',
 
 	// roles
