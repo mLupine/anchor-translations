@@ -2,66 +2,66 @@
 
 return array(
 
-	'extend' => 'Extend',
+	'extend' => 'Ulepszenia', // Yeah, that's nowhere near "Extend", but literal translation would sound really bad in Polish
 
-	'fields' => 'Custom Fields',
-	'fields_desc' => 'Create additional fields',
+	'fields' => 'Własne pola',
+	'fields_desc' => 'Dodaj swoje własne pola',
 
-	'variables' => 'Site Variables',
-	'variables_desc' => 'Create additional metadata',
+	'variables' => 'Zmienne strony',
+	'variables_desc' => 'Dodatkowe metadane strony',
 
-	'create_field' => 'Create a new field',
-	'editing_custom_field' => 'Editing field &ldquo;%s&rdquo;',
-	'nofields_desc' => 'No fields yet',
+	'create_field' => 'Utwórz nowe pole',
+	'editing_custom_field' => 'Edytowanie pola &ldquo;%s&rdquo;',
+	'nofields_desc' => 'Pusto tu. Na razie!', // Changed to sound better in Polish
 
-	'create_variable' => 'Create a new variable',
-	'editing_variable' => 'Editing variable &ldquo;%s&rdquo;',
-	'novars_desc' => 'No variables yet',
+	'create_variable' => 'Utwórz nową zmienną',
+	'editing_variable' => 'Ediytowanie zmiennej &ldquo;%s&rdquo;',
+	'novars_desc' => 'Brak zmiennych. Zmienisz to?',
 
 	// form fields
-	'type' => 'Type',
-	'type_explain' => 'The type of content your want to add this field to.',
+	'type' => 'Typ',
+	'type_explain' => 'Typ treści, jaką chcesz umieścić w tym polu.',
 
-	'field' => 'Field',
-	'field_explain' => 'Html input type',
+	'field' => 'Pole',
+	'field_explain' => 'Typ pola HTML',
 
-	'key' => 'Unique Key',
-	'key_explain' => 'The unique key for your field',
-	'key_missing' => 'Please enter a unique key',
-	'key_exists' => 'Key is already in use',
+	'key' => 'Unikalny klucz',
+	'key_explain' => 'Unikalny klucz Twojego pola',
+	'key_missing' => 'Wpisz swój unikalny klucz dla pola',
+	'key_exists' => 'Pole o takim kluczu już istnieje w serwisie',
 
-	'label' => 'Label',
-	'label_explain' => 'Human readable name for your field',
-	'label_missing' => 'Please enter a label',
+	'label' => 'Opis',
+	'label_explain' => 'Opis pola, możliwy do zrozumienia dla człowieka',
+	'label_missing' => 'Wpisz opis pola',
 
-	'attribute_type' => 'File types',
-	'attribute_type_explain' => 'Comma separated list of accepted file types, empty to accept all.',
+	'attribute_type' => 'Typy plików',
+	'attribute_type_explain' => 'Oddzielona przecinkami lista dozwolonych rozszerzeń plików. Zostaw puste, by akceptować wszystkie.',
 
 	// images
-	'attributes_size_width' => 'Image max width',
-	'attributes_size_width_explain' => 'Images will be resized if they are bigger than the max size',
+	'attributes_size_width' => 'Maksymalna szerokość',
+	'attributes_size_width_explain' => 'Zdjęcia zostaną pomniejszone, jeśli przekroczą tą szerokość',
 
-	'attributes_size_height' => 'Image max height',
-	'attributes_size_height_explain' => 'Images will be resized if they are bigger than the max size',
+	'attributes_size_height' => 'Maksymalna wysokość',
+	'attributes_size_height_explain' => 'Zdjęcia zostaną pomniejszone, jeśli przekroczą tą wysokość',
 
 	// custom vars
-	'name' => 'Name',
-	'name_explain' => 'A unique name',
-	'name_missing' => 'Please enter a unique name',
-	'name_exists' => 'Name is already in use',
+	'name' => 'Nazwa',
+	'name_explain' => 'Unikalna nazwa',
+	'name_missing' => 'Wpisz unikalną nazwę',
+	'name_exists' => 'Ta nazwa jest już użyta',
 
-	'value' => 'Value',
-	'value_explain' => 'The data you want to store (up to 64kb)',
-	'value_code_snipet' => 'Snippet to insert into your template:<br>
+	'value' => 'Wartość',
+	'value_explain' => 'Zawartość, którą chcesz przechować (maksymalnie 64KB)',
+	'value_code_snipet' => 'Użyj tego kodu w swoim szablonie:<br>
 		<code>' . e('<?php echo site_meta(\'%s\'); ?>') . '</code>',
 
 	// messages
-	'variable_created' => 'Your variable was created',
-	'variable_updated' => 'Your variable was updated',
-	'variable_deleted' => 'Your variable was deleted',
+	'variable_created' => 'Zmienna została utworzona',
+	'variable_updated' => 'Zmienna została zaktualizowana',
+	'variable_deleted' => 'Zmienna została usunięta',
 
-	'field_created' => 'Your field was created',
-	'field_updated' => 'Your field was updated',
-	'field_deleted' => 'Your field was deleted'
+	'field_created' => 'Pole zostało dodane',
+	'field_updated' => 'Pole zostało zaktualizowane',
+	'field_deleted' => 'Pole zostało usunięte'
 
 );
