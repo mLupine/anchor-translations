@@ -2,34 +2,34 @@
 
 return array(
 
-	'comments' => 'Comments',
-	'nocomments_desc' => 'No comments yet.',
-	'editing_comment' => 'Editing Comment',
-	'view_comment' => 'View Comment',
+	'comments' => 'Komentarze',
+	'nocomments_desc' => 'Brak komentarzy.',
+	'editing_comment' => 'Edytowanie komentarza',
+	'view_comment' => 'Zobacz komentarz',
 
 	// form fields
-	'name' => 'Name',
-	'name_explain' => 'Author name',
-	'name_missing' => 'Please enter a name',
+	'name' => 'Nazwa',
+	'name_explain' => 'Nazwa autora',
+	'name_missing' => 'Wpisz nazwę autora',
 
-	'email' => 'Email address',
-	'email_explain' => 'Author email',
-	'email_missing', 'Please enter a valid email address', // frontend message (appears on your site!)
+	'email' => 'Adres email',
+	'email_explain' => 'Adres email autora',
+	'email_missing', 'Wpisz poprawny adresd email', // frontend message (appears on your site!)
 
-	'text' => 'Comment',
+	'text' => 'Komentarz',
 	'text_explain' => '',
-	'text_missing' => 'Please enter comment text', // frontend message (appears on your site!)
+	'text_missing' => 'Wpisz treść komentarza', // frontend message (appears on your site!)
 
 	'status' => 'Status',
 	'status_explain' => '',
 
 	// messages
-	'created' => 'Your comment has been added', // frontend message (appears on your site!)
-	'updated' => 'Your comment has been updated',
-	'deleted' => 'Your comment has been deleted',
+	'created' => 'Komentarz został dodany', // frontend message (appears on your site!)
+	'updated' => 'Komentarz został zaktualizowany',
+	'deleted' => 'Komentarz został usunięty',
 
 	// email notification
-	'notify_subject' => 'New comment has been added',
-	'nofity_heading' => 'A new comment has been submitted to your site.'
+	'notify_subject' => 'Dodano nowy komentarz',
+	'nofity_heading' => 'Na Twojej stronie został opublikowany nowy komentarz.'
 
 );
