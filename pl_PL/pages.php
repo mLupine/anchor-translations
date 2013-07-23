@@ -2,47 +2,47 @@
 
 return array(
 
-	'pages' => 'Pages',
+	'pages' => 'Strony',
 
-	'create_page' => 'Create a new page',
-	'nopages_desc' => 'You don’t have any pages.',
-	'redirect' => 'Redirect',
+	'create_page' => 'Utwórz nową stronę',
+	'nopages_desc' => 'Brak stron w serwisie.',
+	'redirect' => 'Przekierowanie',
 
 	// form fields
-	'redirect_url' => 'Redirect Url',
-	'redirect_missing' => 'Please enter a valid url',
+	'redirect_url' => 'Adres przekierowania',
+	'redirect_missing' => 'Wpisz prawidłowy adres',
 
-	'title' => 'Page title',
+	'title' => 'Nazwa strony',
 	'title_explain' => '',
-	'title_missing' => 'Please enter a page title',
+	'title_missing' => 'Wpisz nazwę strony',
 
-	'content' => 'Content',
-	'content_explain' => 'Your page’s content. Uses Markdown.',
+	'content' => 'Treść',
+	'content_explain' => 'Treść strony. Możesz używać składni Markdown.',
 
-	'show_in_menu' => 'Show In Menu',
+	'show_in_menu' => 'Pokazuj w menu',
 	'show_in_menu_explain' => '',
 
-	'name' => 'Name',
+	'name' => 'Nazwa',
 	'name_explain' => '',
 
-	'slug' => 'Slug',
-	'slug_explain' => 'Slug uri to identify your page, should only contain ascii characters',
-	'slug_missing' => 'Please enter a slug uri, slugs can only contain ascii characters',
-	'slug_duplicate' => 'Slug already exists',
-	'slug_invalid' => 'Slug must contain letters',
+	'slug' => 'Prosta nazwa',
+	'slug_explain' => 'Prosta nazwa strony, która będzie wyświetlana w adresie. Dozwolone są tylko znaki ascii.',
+	'slug_missing' => 'Wpisz poprawną prostą nazwę, zawierającą tylko znaki ascii (spacje nie są dozwolone)',
+	'slug_duplicate' => 'Ta prosta nazwa już istnieje',
+	'slug_invalid' => 'Brak liter w prostej nazwie',
 
 	'status' => 'Status',
 	'status_explain' => '',
 
-	'parent' => 'Parent',
+	'parent' => 'Rodzic',
 	'parent_explain' => '',
 
 	// messages
-	'updated' => 'Your page was updated.',
-	'created' => 'Your page was created.',
-	'deleted' => 'Your page was deleted.',
+	'updated' => 'Strona została zaktualizowana.',
+	'created' => 'Strona została utworzona.',
+	'deleted' => 'Strona została usunięta.',
 
-	'cannot_delete_home_page' => 'You cannot delete the home page',
-	'cannot_delete_posts_page' => 'You cannot delete the post listings page',
+	'cannot_delete_home_page' => 'Nie możesz usunać strony głównej',
+	'cannot_delete_posts_page' => 'Nie możesz usunąć strony z wpisami',
 
 );
