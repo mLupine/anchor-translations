@@ -2,11 +2,11 @@
 
 return array(
 
-	'plugins' => 'Plugins',
-	'plugins_desc' => 'Manage your plugins',
-	'noplugins_desc' => 'Get Coding',
+	'plugins' => 'Dodatki',
+	'plugins_desc' => 'Zarządzaj dodatkami',
+	'noplugins_desc' => 'Czas zabrać się do kodowania!',
 
 	// messages
-	'installed' => '%s has been installed',
-	'uninstalled' => '%s has been uninstalled'
+	'installed' => 'Dodatek %s został zainstalowany',
+	'uninstalled' => 'Dodatek %s został odinstalowany'
 );
