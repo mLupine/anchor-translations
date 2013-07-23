@@ -2,27 +2,27 @@
 
 return array(
 
-	'category' => 'Category',
-	'categories' => 'Categories',
+	'category' => 'Kategoria',
+	'categories' => 'Kategorie',
 
-	'create_category' => 'Create a new category',
-	'edit_category' => 'Editing &ldquo;%s&rdquo;',
+	'create_category' => 'Dodaj kategorię',
+	'edit_category' => 'Edytowanie &ldquo;%s&rdquo;',
 
 	// form fields
-	'title' => 'Title',
-	'title_explain' => 'Your category title.',
-	'title_missing' => 'Please enter a title',
+	'title' => 'Nazwa',
+	'title_explain' => 'Twoja nazwa kategorii.',
+	'title_missing' => 'Wpisz nazwę kategorii',
 
-	'slug' => 'Slug',
-	'slug_explain' => 'The slug for your category.',
+	'slug' => 'Uproszczona nazwa',
+	'slug_explain' => 'Uproszczona nazwa kategorii (widoczna w adresie URL).',
 
-	'description' => 'Description',
-	'description_explain' => 'What your category is about.',
+	'description' => 'Opis',
+	'description_explain' => 'Co zawiera Twoja kategoria?',
 
 	// messages
-	'created' => 'Your new category has been added.',
-	'updated' => 'Your category has been updated.',
-	'deleted' => 'Your category has been deleted.',
-	'delete_error' => 'You must have at least one category.',
+	'created' => 'Nowa kategoria została dodana.',
+	'updated' => 'Kategoria została zaktualizowana.',
+	'deleted' => 'Kategoria została usunięta.',
+	'delete_error' => 'Musisz mieć przynajmniej jedną kategorię.',
 
 );
