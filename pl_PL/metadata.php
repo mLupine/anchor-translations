@@ -2,44 +2,44 @@
 
 return array(
 
-	'metadata' => 'Site Metadata',
-	'metadata_desc' => 'Manage your site data',
+	'metadata' => 'Dane strony',
+	'metadata_desc' => 'Zarządzaj meta-danymi swojej strony',
 
-	'comment_settings' => 'Comments',
-	'theme_settings' => 'Apperance',
+	'comment_settings' => 'Komentarze',
+	'theme_settings' => 'Wygląd',
 
 	// form fields
-	'sitename' => 'Site name',
+	'sitename' => 'Nazwa strony',
 	'sitename_explain' => '',
-	'sitename_missing' => 'Your site needs a name!',
+	'sitename_missing' => 'Twoja strona musi mieć jakąś nazwę!',
 
-	'sitedescription' => 'Site description',
+	'sitedescription' => 'Opis strony',
 	'sitedescription_explain' => '',
-	'sitedescription_missing' => 'Your site needs a description!',
+	'sitedescription_missing' => 'Twoja strona musi mieć jakiś opis!',
 
-	'homepage' => 'Home Page',
+	'homepage' => 'Strona główna',
 	'homepage_explain' => '',
 
-	'postspage' => 'Posts Page',
+	'postspage' => 'Strona wpisów',
 	'postspage_explain' => '',
 
-	'posts_per_page' => 'Posts per page',
+	'posts_per_page' => 'Wpisów na stronę',
 	'posts_per_page_explain' => '',
 
-	'auto_publish_comments' => 'Auto-allow comments',
-	'auto_publish_comments_explain' => '',
+	'auto_publish_comments' => 'Automatyczne zatwierdzanie komentarzy',
+	'auto_publish_comments_explain' => 'Dodawaj komentarze bez mdoeracji', // To make Polish users understand this setting better
 
-	'comment_notifications' => 'Email notification for new comments',
+	'comment_notifications' => 'Powiadomienia email o nowych komentarzach',
 	'comment_notifications_explain' => '',
 
-	'comment_moderation_keys' => 'Spam keywords',
-	'comment_moderation_keys_explain' => 'Comma separated list of keywords to blacklist against.
-		Comments will automatically be set as spam.',
+	'comment_moderation_keys' => 'Słowa kluczowe dla spamu',
+	'comment_moderation_keys_explain' => 'Oddzielone przecinkami słowa, które zostaną dodane do czarnej listy.
+		Komentarze zawierające te słowa zostaną automatycznie uznane za spam.',
 
-	'current_theme' => 'Current theme',
+	'current_theme' => 'Wybrany szablon',
 	'current_theme_explain' => '',
 
 	// messages
-	'updated' => 'Metadata updated',
+	'updated' => 'Dane strony zostały zaktualizowane',
 
 );
