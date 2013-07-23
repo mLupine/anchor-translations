@@ -9,53 +9,53 @@
 return array(
 
 	// words
-	'save' => 'Save',
-	'delete' => 'Delete',
-	'update' => 'Update',
-	'edit' => 'Edit',
-	'editing' => 'Editing',
-	'create' => 'Create',
-	'created' => 'Created',
-	'submit' => 'Submit',
-	'close' => 'Close',
+	'save' => 'Zapisz',
+	'delete' => 'Usuń',
+	'update' => 'Zaktualizuj',
+	'edit' => 'Edytuj',
+	'editing' => 'Edytowanie',
+	'create' => 'Utwórz',
+	'created' => 'Utworzone',
+	'submit' => 'Wyślij',
+	'close' => 'Zamknij',
 	'status' => 'Status',
-	'manage' => 'Manage',
+	'manage' => 'Zarządzaj',
 	'reset' => 'Reset',
-	'all' => 'All',
+	'all' => 'Wszystko',
 
 	// pagination
-	'next' => 'Next',
-	'previous' => 'Previous',
-	'first' => 'First',
-	'last' => 'Last',
+	'next' => 'Następna',
+	'previous' => 'Poprzednia',
+	'first' => 'Pierwsza',
+	'last' => 'Ostatnia',
 
 	// statuses
-	'draft' => 'Draft',
-	'archived' => 'Archived',
-	'published' => 'Published',
-	'pending' => 'Pending',
-	'approved' => 'Approved',
+	'draft' => 'Szkic',
+	'archived' => 'W archiwum',
+	'published' => 'Opublikowane',
+	'pending' => 'Oczekujące',
+	'approved' => 'Zatwierdzone',
 	'spam' => 'Spam',
 
-	'inactive' => 'Inactive',
-	'active' => 'Active',
+	'inactive' => 'Niekatywne',
+	'active' => 'Aktywne',
 
 	// roles
-	'administrator' => 'Admin',
-	'editor' => 'Editor',
-	'user' => 'User',
+	'administrator' => 'Administrator',
+	'editor' => 'Redaktor',
+	'user' => 'Użytkownik',
 
-	'log_in' => 'Log in',
-	'login' => 'Login',
-	'log_out' => 'Log out',
-	'logout' => 'Logout',
+	'log_in' => 'Zaloguj się',
+	'login' => 'Logowanie',
+	'log_out' => 'Wyloguj się',
+	'logout' => 'Wylogowywanie',
 
 	// pharses
-	'visit_your_site' => 'Visit your site',
-	'powered_by_anchor' => 'Powered by Anchor, version %s',
-	'make_blogging_beautiful' => 'Make blogging beautiful.',
+	'visit_your_site' => 'Zobacz swoją stronę',
+	'powered_by_anchor' => 'Stworzone dzięki Anchor (wersja %s)',
+	'make_blogging_beautiful' => 'Blogowanie może być piękne.', // Slightly changed to sound good in Polish. Now it means something like "Blogging can be beautiful"
 
 	// messages
-	'confirm_delete' => 'Are you sure you want to delete? This can’t be undone!'
+	'confirm_delete' => 'Na pewno chcesz usunąć? Ta akcja nie może być cofnięta!'
 
 );
