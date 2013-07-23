@@ -2,46 +2,46 @@
 
 return array(
 
-	'posts' => 'Posts',
+	'posts' => 'Wpisy',
 
-	'create_post' => 'Create a new post',
-	'noposts_desc' => 'You don’t have any posts!',
+	'create_post' => 'Utwórz nowy wpis',
+	'noposts_desc' => 'Brak wpisów!',
 
 	// form fields
-	'title' => 'Post title',
+	'title' => 'Nazwa wpisu',
 	'title_explain' => '',
-	'title_missing' => 'Please enter a title',
+	'title_missing' => 'Musisz podać nazwę wpisu!',
 
-	'content' => 'Post Content',
-	'content_explain' => 'Just write.',
+	'content' => 'Treść wpisu',
+	'content_explain' => 'Pisz bez zmartwień.',
 
-	'slug' => 'Slug',
-	'slug_explain' => 'Slug uri to identify your post, should only contain ascii characters',
-	'slug_missing' => 'Please enter a slug uri, slugs can only contain ascii characters',
-	'slug_duplicate' => 'Slug already exists',
-	'slug_invalid' => 'Slug must contain letters',
+	'slug' => 'Prosta nazwa',
+	'slug_explain' => 'Prosta nazwa strony, która będzie wyświetlana w adresie. Dozwolone są tylko znaki ascii.',
+	'slug_missing' => 'Wpisz poprawną prostą nazwę, zawierającą tylko znaki ascii (spacje nie są dozwolone)',
+	'slug_duplicate' => 'Ta prosta nazwa już istnieje',
+	'slug_invalid' => 'Brak liter w prostej nazwie',
 
-	'description' => 'Description',
+	'description' => 'Opis',
 	'description_explain' => '',
 
 	'status' => 'Status',
 	'status_explain' => '',
 
-	'category' => 'Category',
+	'category' => 'Kategoria',
 	'category_explain' => '',
 
-	'allow_comments' => 'Allow Comments',
+	'allow_comments' => 'Zezwól na komentarze',
 	'allow_comments_explain' => '',
 
-	'custom_css' => 'Custom CSS',
+	'custom_css' => 'Własny CSS',
 	'custom_css_explain' => '',
 
-	'custom_js' => 'Custom JS',
+	'custom_js' => 'Własny JS',
 	'custom_js_explain' => '',
 
 	// messages
-	'updated' => 'Your article has been updated',
-	'created' => 'Your new article was created',
-	'deleted' => 'Your article have been deleted'
+	'updated' => 'Wpis został zaktualizowany',
+	'created' => 'Wpis został dodany',
+	'deleted' => 'Wpis został usunięty'
 
 );
