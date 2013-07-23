@@ -2,66 +2,66 @@
 
 return array(
 
-	'users' => 'Users',
+	'users' => 'Użytkownicy',
 
-	'create_user' => 'Create a new user',
-	'add_user' => 'Add a new user',
-	'editing_user' => 'Editing %s&rsquo;s Profile',
-	'remembered' => 'I know my password',
-	'forgotten_password' => 'Forgotten your password?',
+	'create_user' => 'Utwórz nowego użytkownika',
+	'add_user' => 'Dodaj nowego użytkownika',
+	'editing_user' => 'Edytowanie profilu %s',
+	'remembered' => 'Znam swoja hasło!',
+	'forgotten_password' => 'Zapomniałeś hasła?',
 
 	// roles
-	'administrator' => 'Admin',
+	'administrator' => 'Administrator',
 	'administrator_explain' => '',
 
-	'editor' => 'Editor',
+	'editor' => 'Redaktor',
 	'editor_explain' => '',
 
-	'user' => 'User',
+	'user' => 'Użytkownik',
 	'user_explain' => '',
 
 	// form fields
-	'real_name' => 'Real Name',
+	'real_name' => 'Imię i nazwisko',
 	'real_name_explain' => '',
 
-	'bio' => 'Biography',
+	'bio' => 'O sobie',
 	'bio_explain' => '',
 
 	'status' => 'Status',
 	'status_explain' => '',
 
-	'role' => 'Role',
+	'role' => 'Rola',
 	'role_explain' => '',
 
-	'username' => 'Username',
+	'username' => 'Nazwa użytkownika',
 	'username_explain' => '',
-	'username_missing' => 'Please enter a username, must be at least %s characters',
+	'username_missing' => 'Wpisz nazwę użytkownika skłądającą się z przynajmniej %s znaków',
 
-	'password' => 'Password',
+	'password' => 'Hasłó',
 	'password_explain' => '',
-	'password_too_short' => 'Password must be at least %s characters',
+	'password_too_short' => 'Hasło musi mieć przynajmniej %s znaków',
 
-	'new_password' => 'New Password',
+	'new_password' => 'Nowe hasło',
 
 	'email' => 'Email',
 	'email_explain' => '',
-	'email_missing' => 'Please enter a valid email address',
-	'email_not_found' => 'Profile not found.',
+	'email_missing' => 'Wpisz poprawny adres email',
+	'email_not_found' => 'Profil nie został znaleziony.',
 
 	// messages
-	'updated' => 'User profile updated.',
-	'created' => 'User profile created.',
-	'deleted' => 'User profile deleted.',
-	'delete_error' => 'You cannot delete your own profile',
-	'login_error' => 'Username or password is wrong.',
-	'logout_notice' => 'You are now logged out.',
-	'recovery_sent' => 'We have sent you an email to confirm your password change.',
-	'recovery_expired' => 'Password recovery token has expired, please try again.',
-	'password_reset' => 'Your new password has been set. Go and login now!',
+	'updated' => 'Profil użytkownika został zaktualizowany.',
+	'created' => 'Profil użytkownika został utworzony.',
+	'deleted' => 'Profil użytkownika został usunięty.',
+	'delete_error' => 'Nie moźesz usunąć swojego profilu',
+	'login_error' => 'Nazwa użytkownika lub hasło jest nieprawidłowe.',
+	'logout_notice' => 'Zostałeś wylogowany.',
+	'recovery_sent' => 'Wysłaliśmy Ci wiadomość email, by potwierdzić zmianę hasła.',
+	'recovery_expired' => 'Token odzyskania hasła wygasł, spróbuj ponownie.',
+	'password_reset' => 'Nowe hasło zostało ustalone. Nie czekaj i zaloguj się już teraz!',
 
 	// password recovery email
-	'recovery_subject' => 'Password Reset',
-	'recovery_message' => 'You have requested to reset your password.' .
-		'To continue follow the link below.' . PHP_EOL . '%s',
+	'recovery_subject' => 'Reset hasła',
+	'recovery_message' => 'Poprosiłeś o zmianę hasła w naszym serwisie. ' .
+		'Aby kontynuować, kliknij link poniżej.' . PHP_EOL . '%s',
 
 );
